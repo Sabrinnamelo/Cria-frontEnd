@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssCadR.css">
+    <title>Cadastro Professor(a)</title>
+</head>
+
+<body>
+
+    <main>
+
+        <h1> Cadastro do(a) Professor(a)</h1>
+
+        <form action="http://localhost:8080/professora" method="post" id="formProf">
+
+            <label for="nome"> Nome: </label>
+            <input type="text" name="nome" id="nome"> <br>
+
+            <label for="cpf"> CPF: </label>
+            <input type="text" name="cpf" id="cpf"> <br>
+
+            <label for="dataN"> Data nascimento: </label>
+            <input type="date" name="dataN" id="dataN"> <br>
+
+            <label for="email"> Email: </label>
+            <input type="email" name="email" id="email"> <br>
+
+            <label for="telefone"> Telefone: </label>
+            <input type="tel" name="telefone" id="telefone"> <br>
+
+            <label for="rg"> RG: </label>
+            <input type="text" name="rg" id="rg"> <br>
+
+            <label for="especialização"> Especialização: </label>
+            <input type="text" name="especialização" id="especialização"> <br>
+
+            <label for="cargaHoraria"> Carga horária: </label>
+            <input type="text" name="cargaHoraria" id="cargaHoraria"> <br>
+
+        </form>
+
+        <form action="endereco" method="post" id="form-end">
+
+            <h1>Endereço</h1>
+
+            <label for="cep"> CEP: </label>
+            <input type="text" name="cep" id="cep"> <br>
+
+            <label for="estado"> Estado: </label>
+            <input type="text" name="estado" id="estado"> <br>
+
+            <label for="cidade"> Cidade: </label>
+            <input type="text" name="cidade" id="cidade"> <br>
+
+            <label for="rua"> Rua: </label>
+            <input type="text" name="rua" id="rua"> <br>
+
+            <label for="bairro"> Bairro: </label>
+            <input type="text" name="bairro" id="bairro"> <br>
+
+            <label for="numero"> Número: </label>
+            <input type="number" name="numero" id="numero"> <br>
+
+
+
+            <button type="submit" id="btn-cadastrar"> Cadastrar </button>
+        </form>
+
+    </main>
+</body>
+
+</html>

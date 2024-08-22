@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Professores</a></li>
+            <li><a href="#">Responsavéis</a></li>
+            <li><a href="#">Responsavéis de Retirada</a></li>
+            <li><a href="#">Crianças</a></li>
+            <li><a href="#">Turma</a></li>
+            <li><a href="#">Matricula</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="header">
+            <h1>Professor(a)</h1>
+            <a href="/cadastro/crianca/CadastroCrianca.html" class="new-btn " id="openModal">+ Nova criança </a>
+        </div>
+
+        <div class="search-filter">
+            <select name="filtro-turma">
+                <option value="todas">Todas</option>
+            </select>
+            <input type="text" placeholder="Pesquisa rápida">
+        </div>
+
+        <table id="tb-professora" border="1" class="tb-professora">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nome</th>
+                    <th>CPF:</th>
+                    <th>Cidade</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="jvListagemCria.js"></script>
+</body>
+</html>
